@@ -5,6 +5,25 @@
 
 /* Class: Identifier menggunakan . */
 .link {
-    color: brown;
+    color: blue;
     text-decoration: underline;
+}
+
+.wrapper {
+    background: brown;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+    background: rgb(109, 80, 41);
+}
+
+.sidebar {
+    width: 400px;
+    height: 600px;
+    background: rgb(233, 209, 145);
+    float: right;
 }
