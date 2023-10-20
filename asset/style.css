@@ -1,38 +1,73 @@
-/* ID: Identifier menggunakan # */
 #tabel-buah {
     border-collapse: separate;
 }
 
-/* Class: Identifier menggunakan . */
 .link {
-    color: blue;
+    color: maroon;
     text-decoration: underline;
 }
 
-.wrapper {
-    background: coral;
+body {
+    background-color: rgb(216, 81, 81);
 }
 
+.wrapper {}
+
 .container {
-    width: 1200px;
+    width: 100%;
     margin: auto;
-    padding-right: 50px;
-    padding-left: 50px;
-    background: cadetblue;
+    padding-left: 100px;
+    padding-right: 100px;
+    /* Background content */
+    background-color: rgb(209, 179, 236);
 }
 
 .sidebar {
     width: 400px;
     height: 600px;
-    background: darkred;
     float: left;
 }
-
 
 .content {
     width: 790px;
     height: 600px;
-    padding-left: 10px;
-    background: blueviolet;
     float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+#logo {
+    float: left;
+    width: 200px;
+    height: auto;
+    padding: 20px;
+}
+
+#logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+#menu {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    float: right;
+    width: 960px;
+}
+
+#menu li {
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#menu li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(21, 0, 70, 0.493);
+    font-size: 20px;    
+    font-weight: bold;
+    text-decoration: none;
 }
