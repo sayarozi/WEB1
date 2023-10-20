@@ -10,20 +10,29 @@
 }
 
 .wrapper {
-    background: brown;
+    background: coral;
 }
 
 .container {
-    width: 1000px;
+    width: 1200px;
     margin: auto;
     padding-right: 50px;
     padding-left: 50px;
-    background: rgb(109, 80, 41);
+    background: cadetblue;
 }
 
 .sidebar {
     width: 400px;
     height: 600px;
-    background: rgb(233, 209, 145);
+    background: darkred;
+    float: left;
+}
+
+
+.content {
+    width: 790px;
+    height: 600px;
+    padding-left: 10px;
+    background: blueviolet;
     float: right;
 }
