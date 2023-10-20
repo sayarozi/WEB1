@@ -1,0 +1,10 @@
+/* ID: Identifier menggunakan # */
+#tabel-buah {
+    border-collapse: separate;
+}
+
+/* Class: Identifier menggunakan . */
+.link {
+    color: brown;
+    text-decoration: underline;
+}
