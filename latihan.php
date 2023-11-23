@@ -1,4 +1,4 @@
 <?php
-for ($i = 0; $i < 5; $i++) {
-    echo "Hello World $i <br>";
+for ($i = 1; $i <= 5; $i++) {
+    echo "Hai, saya urutan ke- $i <br>";
 }
